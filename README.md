@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD23D,50:FF9A3D,100:FF5D5D&height=220&section=header&text=Hi%20There!%20I'm%20Wajeeh%20%F0%9F%91%8B&fontSize=42&fontColor=2B2118&animation=fadeIn&fontAlignY=38&desc=Building%20startups.%20Chasing%20ideas.%20Shipping%20code.&descAlignY=58&descSize=18" width="100%"/>
 
-<img src="./pikachu.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Riftwalker23/Riftwalker23/main/pikachu.svg" width="100%" alt="Pikachu running"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=FF9A3D&center=true&vCenter=true&width=600&lines=CS+Undergrad+%40+FAST+NUCES+Islamabad;Passionate+Developer+from+Pakistan+%F0%9F%87%B5%F0%9F%87%B0;Aspiring+Startup+Founder+%F0%9F%9A%80;Turning+Ideas+Into+Innovation+%E2%9A%A1" alt="Typing SVG" />
@@ -49,7 +49,7 @@
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Riftwalker23&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF9A3D&icon_color=FFD23D"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Riftwalker23&theme=radical&hide_border=true&background=0D1117&ring=FF9A3D&fire=FFD23D&currStreakLabel=FF9A3D"/>
+<img height="165" src="https://streak-stats.demolab.com/?user=Riftwalker23&theme=radical&hide_border=true&background=0D1117&ring=FF9A3D&fire=FFD23D&currStreakLabel=FF9A3D"/>
 
 <br/>
 
@@ -73,7 +73,7 @@
 
 <div align="center">
 
-<a href="mailto:Riftwalker23@gmail.com">
+<a href="mailto:180wajeeh@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 <a href="https://www.linkedin.com/in/wajeeh-imran" target="_blank">
