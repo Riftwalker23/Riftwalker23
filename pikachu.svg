@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
+  <defs>
+    <style>
+      .body   { fill:#FFD23D; }
+      .cheek  { fill:#FF5D5D; }
+      .dark   { fill:#2B2118; }
+      .white  { fill:#FFF7E6; }
+      .tail   { fill:#FFD23D; stroke:#2B2118; stroke-width:2; }
+    </style>
+  </defs>
+
+  <!-- moving group: walks right, flips, walks back -->
+  <g id="pika">
+    <g id="critter">
+      <!-- ears -->
+      <path class="dark" d="M6 18 L18 -6 L28 20 Z"/>
+      <path class="body"  d="M9 17 L18 0 L24 19 Z"/>
+      <path class="dark" d="M50 18 L62 -6 L72 20 Z" transform="translate(0,0)"/>
+      <path class="body"  d="M53 17 L62 0 L68 19 Z"/>
+
+      <!-- body -->
+      <ellipse class="body" cx="40" cy="46" rx="30" ry="26"/>
+
+      <!-- cheeks -->
+      <circle class="cheek" cx="16" cy="48" r="6"/>
+      <circle class="cheek" cx="64" cy="48" r="6"/>
+
+      <!-- eyes -->
+      <circle class="dark" cx="28" cy="38" r="3.5"/>
+      <circle class="dark" cx="52" cy="38" r="3.5"/>
+
+      <!-- mouth -->
+      <path class="dark" d="M34 52 Q40 57 46 52" fill="none" stroke="#2B2118" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- legs (animated for a running feel) -->
+      <ellipse class="body" cx="26" cy="70" rx="8" ry="9">
+        <animate attributeName="cy" values="70;66;70" dur="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse class="body" cx="54" cy="70" rx="8" ry="9">
+        <animate attributeName="cy" values="66;70;66" dur="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+
+      <!-- tail (bolt shape), wiggling -->
+      <path class="tail" d="M70 40 L92 20 L82 38 L98 30 L78 58 L86 42 Z">
+        <animateTransform attributeName="transform" type="rotate" values="-6 78 40; 8 78 40; -6 78 40" dur="0.6s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- run left to right, flip, run back -->
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0,20; 800,20; 800,20; 0,20; 0,20"
+      keyTimes="0; 0.47; 0.5; 0.97; 1"
+      dur="9s"
+      repeatCount="indefinite"/>
+  </g>
+</svg>
