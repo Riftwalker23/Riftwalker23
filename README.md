@@ -86,6 +86,33 @@
 
 <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/Neon%20Line.gif" width="100%"/>
 
+## &nbsp;📜&nbsp; CERTIFICATIONS
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="440">
+<a href="https://raw.githubusercontent.com/Riftwalker23/Riftwalker23/main/claude101.png" target="_blank">
+<img src="https://raw.githubusercontent.com/Riftwalker23/Riftwalker23/main/claude101.png" width="400" alt="Claude 101 Certificate"/>
+</a>
+<br/><b>Claude 101</b>
+<br/><sub>Anthropic</sub>
+</td>
+<td align="center" width="440">
+<a href="https://raw.githubusercontent.com/Riftwalker23/Riftwalker23/main/claude-code-101.png" target="_blank">
+<img src="https://raw.githubusercontent.com/Riftwalker23/Riftwalker23/main/claude-code-101.png" width="400" alt="Claude Code 101 Certificate"/>
+</a>
+<br/><b>Claude Code 101</b>
+<br/><sub>Anthropic · Issued May 1, 2026</sub>
+</td>
+</tr>
+</table>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/Neon%20Line.gif" width="100%"/>
+
 ## &nbsp;🌐&nbsp; CONNECT
 
 <div align="center">
