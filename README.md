@@ -44,18 +44,7 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Riftwalker23&show_icons=true&theme=github_dark&hide_border=true&bg_color=000000&title_color=00E5FF&icon_color=FFD23D&text_color=c9d1d9&count_private=true"/>
 <img height="180" src="https://streak-stats.demolab.com?user=Riftwalker23&theme=github-dark-blue&hide_border=true&background=000000&ring=00E5FF&fire=FFD23D&currStreakLabel=00E5FF&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e&sideLabels=c9d1d9"/>
-
-</div>
-
-<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/Neon%20Line.gif" width="100%"/>
-
-## &nbsp;🌱&nbsp; CONTRIBUTION GRAPH
-
-<div align="center">
-
-<img src="https://ghchart.rshah.org/00E5FF/Riftwalker23" width="95%" alt="Wajeeh's GitHub contribution calendar"/>
 
 </div>
 
