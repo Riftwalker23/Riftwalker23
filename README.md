@@ -48,16 +48,16 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=180wajeeh&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF9A3D&icon_color=FFD23D"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Riftwalker23&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF9A3D&icon_color=FFD23D"/>
 <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=180wajeeh&theme=radical&hide_border=true&background=0D1117&ring=FF9A3D&fire=FFD23D&currStreakLabel=FF9A3D"/>
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=180wajeeh&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF9A3D"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Riftwalker23&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF9A3D"/>
 
 </div>
 
-> ℹ️ Replace `180wajeeh` above with your actual **GitHub username** so the stats cards pull your real data.
+
 
 ---
 
