@@ -1,37 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Pikachu sprinting across an electric sky">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Pikachu sprinting across a dark electric sky">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"  stop-color="#1a0b3d">
-        <animate attributeName="stop-color" values="#1a0b3d;#3d1a6e;#0b3d6e;#1a0b3d" dur="10s" repeatCount="indefinite"/>
+      <stop offset="0%"  stop-color="#05010d">
+        <animate attributeName="stop-color" values="#05010d;#0a0518;#0d0221;#05010d" dur="12s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="55%" stop-color="#5b2a86">
-        <animate attributeName="stop-color" values="#5b2a86;#c74b9e;#4b6ec7;#5b2a86" dur="10s" repeatCount="indefinite"/>
+      <stop offset="55%" stop-color="#160c3a">
+        <animate attributeName="stop-color" values="#160c3a;#2a0a4a;#0a1a3a;#160c3a" dur="12s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#ff8c42">
-        <animate attributeName="stop-color" values="#ff8c42;#ffd23d;#ff5d9e;#ff8c42" dur="10s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#3a1a00">
+        <animate attributeName="stop-color" values="#3a1a00;#4a0a2a;#1a0a3a;#3a1a00" dur="12s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <radialGradient id="aura" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#fff59a" stop-opacity="0.95"/>
-      <stop offset="60%" stop-color="#ffd23d" stop-opacity="0.35"/>
+      <stop offset="0%" stop-color="#fff59a" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#ffd23d" stop-opacity="0.3"/>
       <stop offset="100%" stop-color="#ffd23d" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#000" stop-opacity="0.4"/>
+      <stop offset="0%" stop-color="#000" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#000" stop-opacity="0"/>
     </radialGradient>
     <style>
-      .body{fill:#FFDE3A;} .shade{fill:#F5B90A;} .dark{fill:#2B2118;}
-      .cheek{fill:#FF5D5D;} .white{fill:#FFFDF5;} .earTip{fill:#3A2C1A;}
-      .bolt{fill:#FFD23D;stroke:#3A2C1A;stroke-width:3;stroke-linejoin:round;}
-      .spark{stroke:#FFF07A;stroke-width:3;stroke-linecap:round;fill:none;}
+      .body{fill:#FFDE3A;} .shade{fill:#E0A800;} .dark{fill:#1a1207;}
+      .cheek{fill:#FF3D3D;} .white{fill:#FFFDF5;} .earTip{fill:#241a0a;}
+      .bolt{fill:#FFD23D;stroke:#241a0a;stroke-width:3;stroke-linejoin:round;}
+      .spark{stroke:#8AE0FF;stroke-width:3;stroke-linecap:round;fill:none;}
     </style>
   </defs>
 
   <rect width="1000" height="300" rx="24" fill="url(#sky)"/>
+  <rect width="1000" height="300" rx="24" fill="none" stroke="#00E5FF" stroke-width="2" opacity="0.35"/>
 
   <!-- twinkling stars -->
-  <g fill="#fffbe6">
+  <g fill="#cfe9ff">
     <circle cx="120" cy="45" r="2.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/></circle>
     <circle cx="330" cy="35" r="2"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></circle>
     <circle cx="560" cy="55" r="3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/></circle>
@@ -42,121 +43,76 @@
     <circle cx="450" cy="78" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- drifting clouds -->
-  <g fill="#ffffff" opacity="0.8">
-    <g>
-      <ellipse cx="0" cy="70" rx="46" ry="20"/><ellipse cx="34" cy="62" rx="34" ry="24"/><ellipse cx="64" cy="72" rx="40" ry="18"/>
-      <animateTransform attributeName="transform" type="translate" values="1080,0;-160,0" dur="20s" repeatCount="indefinite"/>
-    </g>
-    <g opacity="0.65">
-      <ellipse cx="0" cy="120" rx="40" ry="16"/><ellipse cx="30" cy="112" rx="30" ry="20"/><ellipse cx="58" cy="120" rx="34" ry="15"/>
-      <animateTransform attributeName="transform" type="translate" values="1120,0;-160,15" dur="28s" repeatCount="indefinite"/>
-    </g>
-  </g>
-
-  <!-- forked lightning bolts flashing across the sky -->
-  <g stroke="#FFF6B0" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0">
-    <path d="M300 10 L285 70 L305 66 L288 130"/>
+  <!-- forked lightning flashes -->
+  <g stroke="#9AD8FF" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0">
+    <path d="M300 6 L285 66 L305 62 L288 128"/>
     <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.28;0.31;0.35;1" dur="4s" repeatCount="indefinite"/>
   </g>
   <g stroke="#B8E1FF" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0">
-    <path d="M720 10 L735 60 L712 58 L730 120"/>
+    <path d="M720 6 L735 56 L712 54 L730 118"/>
     <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.6;0.63;0.68;1" dur="4s" repeatCount="indefinite"/>
   </g>
 
-  <!-- ==== RUNNER GROUP (moves across, bobs, flips) ==== -->
   <g id="runner">
-    <!-- energy aura -->
     <circle cx="80" cy="205" r="95" fill="url(#aura)">
       <animate attributeName="r" values="82;104;82" dur="0.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="0.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="0.4s" repeatCount="indefinite"/>
     </circle>
-
-    <!-- ground shadow -->
     <ellipse cx="80" cy="278" rx="72" ry="14" fill="url(#shadow)">
       <animate attributeName="rx" values="72;56;72" dur="0.28s" repeatCount="indefinite"/>
     </ellipse>
-
-    <!-- speed streaks trailing behind -->
-    <g class="spark" opacity="0.85">
+    <g class="spark" stroke="#8AE0FF" opacity="0.9">
       <line x1="-35" y1="180" x2="-105" y2="180"><animate attributeName="opacity" values="0.9;0.1;0.9" dur="0.3s" repeatCount="indefinite"/></line>
       <line x1="-25" y1="205" x2="-120" y2="205"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="0.3s" repeatCount="indefinite"/></line>
       <line x1="-35" y1="230" x2="-100" y2="230"><animate attributeName="opacity" values="0.9;0.1;0.9" dur="0.26s" repeatCount="indefinite"/></line>
     </g>
 
-    <!-- vertical bob wrapper -->
     <g id="bob">
-      <!-- flip wrapper -->
       <g id="pika" transform="translate(80,205) scale(2)">
-
-        <!-- lightning tail -->
         <path class="bolt" d="M40 6 L72 -24 L55 4 L84 -10 L44 46 L58 14 Z">
           <animateTransform attributeName="transform" type="rotate" values="-10 45 6; 12 45 6; -10 45 6" dur="0.28s" repeatCount="indefinite"/>
         </path>
-
-        <!-- ears -->
         <path class="body"  d="M-24 -30 L-14 -72 L-2 -26 Z"/>
         <path class="earTip" d="M-24 -30 L-19 -52 L-11 -30 Z"/>
         <path class="body"  d="M22 -30 L36 -74 L44 -26 Z"/>
         <path class="earTip" d="M30 -34 L36 -56 L43 -32 Z"/>
-
-        <!-- back arm -->
         <ellipse class="shade" cx="-24" cy="10" rx="10" ry="14">
           <animateTransform attributeName="transform" type="rotate" values="24 -24 -2; -32 -24 -2; 24 -24 -2" dur="0.28s" repeatCount="indefinite"/>
         </ellipse>
-
-        <!-- body -->
         <ellipse class="body" cx="10" cy="0" rx="42" ry="38"/>
         <path class="shade" d="M-28 8 Q10 40 48 8 Q40 34 10 38 Q-20 34 -28 8 Z"/>
-
-        <!-- legs running -->
         <ellipse class="body" cx="-8" cy="34" rx="12" ry="16">
           <animateTransform attributeName="transform" type="rotate" values="-38 -8 20; 38 -8 20; -38 -8 20" dur="0.28s" repeatCount="indefinite"/>
         </ellipse>
         <ellipse class="body" cx="26" cy="34" rx="12" ry="16">
           <animateTransform attributeName="transform" type="rotate" values="38 26 20; -38 26 20; 38 26 20" dur="0.28s" repeatCount="indefinite"/>
         </ellipse>
-
-        <!-- front arm -->
         <ellipse class="body" cx="46" cy="8" rx="10" ry="14">
           <animateTransform attributeName="transform" type="rotate" values="-34 46 -4; 26 46 -4; -34 46 -4" dur="0.28s" repeatCount="indefinite"/>
         </ellipse>
-
-        <!-- electric sparks around cheeks -->
-        <g class="spark" stroke="#FFF07A">
+        <g class="spark" stroke="#8AE0FF">
           <path d="M-30 6 L-40 -2 L-34 4 L-44 -6"><animate attributeName="opacity" values="1;0;1;0" dur="0.5s" repeatCount="indefinite"/></path>
           <path d="M50 6 L60 -2 L54 4 L64 -6"><animate attributeName="opacity" values="0;1;0;1" dur="0.5s" repeatCount="indefinite"/></path>
         </g>
-
-        <!-- cheeks glowing -->
         <circle class="cheek" cx="-18" cy="6" r="9"><animate attributeName="r" values="8.5;11;8.5" dur="0.5s" repeatCount="indefinite"/></circle>
         <circle class="cheek" cx="38" cy="6" r="9"><animate attributeName="r" values="8.5;11;8.5" dur="0.5s" repeatCount="indefinite"/></circle>
-
-        <!-- eyes -->
         <circle class="dark" cx="-4" cy="-8" r="6"/><circle class="white" cx="-2" cy="-10" r="2"/>
         <circle class="dark" cx="24" cy="-8" r="6"/><circle class="white" cx="26" cy="-10" r="2"/>
-
-        <!-- nose + open mouth -->
         <circle class="dark" cx="10" cy="0" r="2"/>
         <path d="M2 6 Q10 17 18 6 Q10 12 2 6 Z" class="dark"/>
-        <path d="M4 8 Q10 13 16 8" fill="#FF5D5D"/>
+        <path d="M4 8 Q10 13 16 8" fill="#FF3D3D"/>
       </g>
     </g>
   </g>
 
-  <!-- horizontal sprint: right, quick flip, back -->
   <animateTransform xlink:href="#runner" attributeName="transform" type="translate"
     values="0,0; 760,0; 760,0; 760,0; 0,0; 0,0"
     keyTimes="0; 0.42; 0.46; 0.54; 0.96; 1"
     dur="7s" calcMode="spline"
     keySplines="0.35 0 0.65 1; 0 0 1 1; 0 0 1 1; 0.35 0 0.65 1; 0 0 1 1"
     repeatCount="indefinite"/>
-
-  <!-- bob up/down while running -->
   <animateTransform xlink:href="#bob" attributeName="transform" type="translate"
     values="0,0; 0,-9; 0,0; 0,-9; 0,0" dur="0.28s" repeatCount="indefinite"/>
-
-  <!-- mirror sprite on the return leg -->
   <animateTransform xlink:href="#pika" attributeName="transform" additive="sum" type="scale"
     values="1,1; 1,1; -1,1; -1,1; 1,1"
     keyTimes="0; 0.45; 0.46; 0.95; 0.96" dur="7s" repeatCount="indefinite"/>
