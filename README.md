@@ -90,12 +90,6 @@
 </tr>
 </table>
 
-<br/>
-
-### 🏅 &nbsp;Stat Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=Riftwalker23&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6"/>
-
 </div>
 
 <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/Neon%20Line.gif" width="100%"/>
