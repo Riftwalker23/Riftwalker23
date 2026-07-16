@@ -73,6 +73,27 @@
 
 <div align="center">
 
+### 🎖️ &nbsp;GitHub Achievements
+
+<table>
+<tr>
+<td align="center" width="180">
+<img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="80" alt="YOLO"/>
+<br/><b>YOLO</b>
+<br/><sub>Merged a PR without review</sub>
+</td>
+<td align="center" width="180">
+<img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="80" alt="Quickdraw"/>
+<br/><b>Quickdraw</b>
+<br/><sub>Closed an issue / PR within 5 min</sub>
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 🏅 &nbsp;Stat Trophies
+
 <img src="https://github-profile-trophy.vercel.app/?username=Riftwalker23&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6"/>
 
 </div>
