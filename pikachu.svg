@@ -9,7 +9,7 @@
       </stop>
       <stop offset="100%" stop-color="#ffb84d">
         <animate attributeName="stop-color" values="#ffb84d;#2b1055;#7597de;#ff7eb3;#ffb84d" dur="12s" repeatCount="indefinite"/>
-      </stop>
+      </stop> 
     </linearGradient>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#fff6c9" stop-opacity="0.9"/>
