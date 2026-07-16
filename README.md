@@ -59,11 +59,11 @@
 
 <div align="center">
 
+<img src="https://ghchart.rshah.org/00E5FF/Riftwalker23" width="95%" alt="Wajeeh's GitHub contribution calendar"/>
+
+<br/><br/>
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Riftwalker23&bg_color=000000&color=00E5FF&line=00E5FF&point=FFD23D&area=true&hide_border=true&custom_title=Contribution%20Activity" width="95%"/>
-
-<br/>
-
-<img src="https://github-contribution-grid-snake.vercel.app/Riftwalker23/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Contribution snake"/>
 
 </div>
 
