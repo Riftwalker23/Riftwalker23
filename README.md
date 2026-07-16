@@ -49,7 +49,7 @@
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Riftwalker23&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF9A3D&icon_color=FFD23D"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=180wajeeh&theme=radical&hide_border=true&background=0D1117&ring=FF9A3D&fire=FFD23D&currStreakLabel=FF9A3D"/>
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Riftwalker23&theme=radical&hide_border=true&background=0D1117&ring=FF9A3D&fire=FFD23D&currStreakLabel=FF9A3D"/>
 
 <br/>
 
@@ -57,15 +57,13 @@
 
 </div>
 
-
-
 ---
 
 ### 🏆 Trophies
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=180wajeeh&theme=radical&no-frame=true&no-bg=true&row=1&column=6"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Riftwalker23&theme=radical&no-frame=true&no-bg=true&row=1&column=6"/>
 
 </div>
 
@@ -75,7 +73,7 @@
 
 <div align="center">
 
-<a href="mailto:180wajeeh@gmail.com">
+<a href="mailto:Riftwalker23@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 <a href="https://www.linkedin.com/in/wajeeh-imran" target="_blank">
@@ -97,7 +95,7 @@
 
 <div align="center">
 
-![Profile views](https://komarev.com/ghpvc/?username=180wajeeh&color=FF9A3D&style=for-the-badge&label=PROFILE+VIEWS)
+![Profile views](https://komarev.com/ghpvc/?username=Riftwalker23&color=FF9A3D&style=for-the-badge&label=PROFILE+VIEWS)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF5D5D,50:FF9A3D,100:FFD23D&height=120&section=footer"/>
 
